@@ -27,7 +27,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <QrCode className="h-6 w-6 text-primary animate-spin-slow" />
-            <h1 className="text-xl font-bold text-gray-900">Pixel Perfect QR Code Forge</h1>
+            <h1 className="text-xl font-bold text-gray-900">QRCreate.com</h1>
           </div>
           <div className="flex items-center gap-2 text-sm text-muted-foreground">
             <Sparkles className="h-4 w-4" />
@@ -134,7 +134,7 @@ const Index = () => {
 
       <footer className="bg-white border-t py-6 mt-12">
         <div className="container mx-auto px-4 text-center text-sm text-muted-foreground">
-          <p>Pixel Perfect QR Code Forge - All premium features, completely free.</p>
+          <p>QRCreate.com - All premium features, completely free.</p>
           <p className="mt-2">© {new Date().getFullYear()} - Designed with ❤️</p>
         </div>
       </footer>
