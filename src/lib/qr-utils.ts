@@ -63,7 +63,7 @@ export const SAMPLE_TEMPLATES = [
       foregroundColor: '#3B82F6',
       backgroundColor: '#EFF6FF',
       cornerSquareColor: '#1E3A8A',
-      shape: 'rounded',
+      shape: 'rounded' as QRShapeType,
     },
     thumbnail: '💙'
   },
@@ -74,7 +74,7 @@ export const SAMPLE_TEMPLATES = [
       foregroundColor: '#10B981',
       backgroundColor: '#ECFDF5',
       cornerSquareColor: '#065F46',
-      shape: 'classy',
+      shape: 'classy' as QRShapeType,
     },
     thumbnail: '💚'
   },
@@ -86,7 +86,7 @@ export const SAMPLE_TEMPLATES = [
       backgroundColor: '#F5F3FF',
       cornerSquareColor: '#5B21B6',
       cornerDotColor: '#7C3AED',
-      shape: 'dots',
+      shape: 'dots' as QRShapeType,
     },
     thumbnail: '💜'
   },
@@ -98,7 +98,7 @@ export const SAMPLE_TEMPLATES = [
       backgroundColor: '#FFF7ED',
       cornerSquareColor: '#C2410C',
       cornerDotColor: '#EA580C',
-      shape: 'classy-rounded',
+      shape: 'classy-rounded' as QRShapeType,
     },
     thumbnail: '🧡'
   },
